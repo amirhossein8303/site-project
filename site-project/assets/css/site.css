@@ -1,0 +1,1087 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    position: sticky;
+    position: -webkit-sticky;
+}
+
+.navbar-index {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    color: #004193;
+
+}
+
+.navbar-item {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin: 20px;
+    font-size: 25px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.navbar-item:hover {
+    color: rgba(30, 144, 255, 0.62);
+    cursor: pointer;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+}
+
+.form-visa:after {
+    display: flex;
+    justify-content: center;
+    background-color: #4287de;
+    align-self: center;
+    align-items: center;
+}
+.father-form-visa{
+    display: flex;
+    justify-content: center;
+}
+
+.form-visa {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    height: 70vh;
+    width: 1600px;
+    background-color: #6EC1E4;
+    background-image: url("../img/passport.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.afs-visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#logo {
+    height: 50px;
+}
+
+.visa-canada {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    transition: 0.5s;
+}
+
+.visa-canada:hover {
+    cursor: pointer;
+    width: 300px;
+}
+
+.text-visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004193;
+    font-size: 45px;
+    height: 80px;
+}
+
+.text-visa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #004193;
+    font-size: 25px;
+    height: 50px;
+}
+
+.button-form-visa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+}
+
+.button-search {
+    color: rgb(255, 255, 255);
+    background-color: rgb(18, 107, 205);
+    border-radius: 25px;
+    padding: 12px 25px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.button-search:hover {
+    background-color: #004193;
+    cursor: pointer;
+}
+
+.form-visa-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.form-visa-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 70vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.father-migration-path {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.migration-path {
+    text-align: center;
+    font-size: 40px;
+}
+
+.godfather-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.father-div {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-self: center;
+    flex-wrap: wrap;
+}
+
+.container-site {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    border-radius: 35px;
+    margin: 8px;
+}
+
+.center-site {
+    display: flex;
+    justify-content: right;
+}
+
+.flag1 {
+    position: absolute;
+    top: 20px;
+    margin-right: 45px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background-image: url("../img/alman.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    direction: rtl;
+}
+
+.text-flag {
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 90px;
+    z-index: 100;
+    direction: rtl;
+    top: 17px;
+}
+
+.text-city {
+    font-family: 'Audiowide', cursive;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    right: 45px;
+    z-index: 100;
+    direction: rtl;
+    top: 120px;
+}
+
+.button-city {
+    position: absolute;
+    right: 45px;
+    z-index: 100;
+    direction: rtl;
+    top: 180px;
+    padding: 15px;
+}
+
+.button-city1 {
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.div-city {
+    width: 600px;
+    height: 350px;
+}
+
+.city1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/germany.jpg");
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.div-city:hover .city1 {
+    filter: blur(3px);
+}
+
+.flag2 {
+    position: absolute;
+    top: 20px;
+    margin-right: 45px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background-image: url("../img/kanada.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    direction: rtl;
+}
+
+.city2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/canada-city.jpg");
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.div-city:hover .city2 {
+    filter: blur(3px);
+}
+
+.flag3 {
+    position: absolute;
+    top: 20px;
+    margin-right: 45px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background-image: url("../img/france.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    direction: rtl;
+}
+
+.city3 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/paris_france.jpg");
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.div-city:hover .city3 {
+    filter: blur(3px);
+}
+
+.flag4 {
+    position: absolute;
+    top: 20px;
+    margin-right: 45px;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    background-image: url("../img/turkeye.png");
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    direction: rtl;
+}
+
+.city4 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url("../img/turkey-istanbul.jpg");
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+.div-city:hover .city4 {
+    filter: blur(3px);
+}
+
+.father-cuntry100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.cuntry100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.father-line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: gray solid 1px;
+    width: 500px;
+    opacity: 0.4;
+}
+
+.father-map-contries {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.map-contries {
+    display: flex;
+    width: 1100px;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 20px;
+    direction: rtl;
+    font-family: 'Audiowide', cursive;
+}
+
+.map {
+    width: 150px;
+}
+
+.map-picture {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+    width: 80px;
+    height: 80px;
+    transition: 0.4s ease-out;
+}
+
+.map-p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.map-picture:hover {
+    width: 95px;
+    height: 95px;
+    opacity: 0.8;
+}
+
+.father-hello-to-travel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.hello-to-travel {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    direction: rtl;
+}
+
+.txt-gray {
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    color: #32445e;
+}
+
+.txt-red {
+    font-family: 'Audiowide', cursive;
+    font-size: 30px;
+    color: #ff0000;
+}
+
+.father-travel-ofer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-ofer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 1100px;
+    height: 200px;
+    direction: rtl;
+}
+
+.father-travel-ofer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.travel-ofer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 1100px;
+    height: 200px;
+    direction: rtl;
+}
+
+.travel-ofer-picture1 {
+    background-image: url("../img/england-top-rated-cities-london.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.travel-ofer-picture2 {
+    background-image: url("../img/dubai.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.travel-ofer-picture3 {
+    background-image: url("../img/maldive.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.travel-ofer-picture4 {
+    background-image: url("../img/paris_france.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.travel-ofer-picture5 {
+    background-image: url("../img/india.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.travel-ofer-picture6 {
+    background-image: url("../img/canada2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 180px;
+    margin: 10px;
+}
+
+.txt-overlay-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+}
+
+.txt-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+/*.hr-overlay {*/
+/*    height: 1px;*/
+/*    width: 100px;*/
+/*    margin: 0 auto;*/
+/*    background: #fff;*/
+/*    overflow: hidden;*/
+/*    display: block;*/
+/*}*/
+
+.txt-overlay-container:hover .txt-overlay {
+    margin-top: 0;
+    color: black;
+}
+
+/*.txt-overlay-container:hover{*/
+/*    background-color: black;*/
+/*    opacity: 0.5;*/
+/*    transition: 0.5s ;*/
+/*}*/
+.father-txt-picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+.txt-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 460px;
+    direction: rtl;
+}
+
+.picture-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 440px;
+    background-image: url("../img/generic-smin.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.txt-right {
+    width: 550px;
+    height: 440px;
+}
+
+.txt-normal1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto 50px auto;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.good {
+    color: #126bdc;
+    border: #126bdc;
+}
+
+.txt-normal2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.btn-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.btn-right1 {
+    background-color: #004193;
+    color: white;
+    border-radius: 35px;
+    margin: 8px 12px;
+    height: 40px;
+    width: 170px;
+    transition: 0.5s;
+}
+
+.btn-right1:hover {
+    background-color: #5276ea;
+    width: 185px;
+    height: 65px;
+    font-size: 18px;
+}
+
+.father-proposal-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1400px;
+}
+.proposal-div {
+    width: 1250px;
+    height: 1300px;
+}
+
+.txt-end {
+    text-align: right;
+    margin: 0 auto 20px auto;
+    width: 1250px;
+    font-size: 22px;
+}
+
+.father-overlay {
+    display: flex;
+    justify-content: center;
+    width: 1250px;
+    height: 1300px;
+}
+
+.child-overlay1 {
+    width: 490px;
+    height: 580px;
+    margin: 0 10px 20px 10px;
+}
+
+.picture-overlay1 {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: 480px;
+    height: 305px;
+    background-image: url("../img/alman.jpg");
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.picture-overlay1:hover .serche-link {
+    height: 70px;
+}
+
+.picture-overlay1:hover .icon-serche, .icon-link {
+    visibility: visible;
+    opacity: 1;
+}
+
+.picture-overlay1:hover {
+    opacity: 0.8;
+}
+
+/*.picture-overlay {*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    width: 480px;*/
+/*    height: 305px;*/
+/*    margin: 0 auto 0 auto;*/
+/*}*/
+
+/*.picture-back {*/
+/*    width: 480px;*/
+/*    height: 305px;*/
+/*    background-image: url("alman.visa.jpg");*/
+/*    background-size: cover;*/
+/*}*/
+
+/*.serche-overlay {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    margin-top: 226px;*/
+/*    width: 480px;*/
+/*    height: 80px;*/
+/*    direction: rtl;*/
+/*}*/
+
+/*.right {*/
+/*    display: flex;*/
+/*    justify-content: right;*/
+/*    width: 240px;*/
+/*    height: 80px;*/
+/*    background-color: #126bdc;*/
+/*    opacity: 0.7;*/
+/*}*/
+
+/*.picture-serche {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    margin: 0 auto 0 auto;*/
+/*    width: 120px;*/
+/*    height: 80px;*/
+/*    background-image: url("search-icon-7.png");*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.left {*/
+/*    display: flex;*/
+/*    justify-content: left;*/
+/*    width: 240px;*/
+/*    height: 80px;*/
+/*    background-color: #126bdc;*/
+/*    opacity: 0.7;*/
+/*}*/
+
+/*.picture-link {*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    align-self: center;*/
+/*    margin: 0 auto;*/
+/*    width: 50px;*/
+/*    height: 50px;*/
+/*    background-image: url("images5555.png");*/
+/*    background-color: transparent;*/
+/*    background-size: contain;*/
+/*    background-repeat: no-repeat;*/
+/*}*/
+
+/*.picture-back:hover .serche-overlay {*/
+/*    height: 80px;*/
+/*    transition: 0.5s;*/
+/*}*/
+
+.child-overlay2 {
+    width: 490px;
+    height: 580px;
+    margin: 0 10px 20px 10px;
+}
+
+.picture-overlay2 {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: 480px;
+    height: 305px;
+    background-image: url("../img/dobei.jpg");
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.serche-link {
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 0;
+    background-color: #126bdc;
+    opacity: 0.8;
+    direction: rtl;
+    position: absolute;
+    transition: height 0.3s ease-in;
+}
+
+.serche {
+    display: flex;
+    justify-content: left;
+    width: 240px;
+    height: 70px;
+    background-color: transparent;
+}
+
+.icon-serche {
+    display: flex;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background-image: url("../icon/search-icon-7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    width: 240px;
+    height: 70px;
+    background-color: transparent;
+
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    background-image: url("../icon/images5555.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+.picture-overlay2:hover .serche-link {
+    height: 70px;
+}
+
+.picture-overlay2:hover .icon-serche, .icon-link {
+    visibility: visible;
+    opacity: 1;
+}
+
+.picture-overlay2:hover {
+    opacity: 0.8;
+}
+
+.child-overlay3 {
+    width: 490px;
+    height: 580px;
+    margin: 0 10px 20px 10px;
+}
+
+.picture-overlay3 {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    width: 480px;
+    height: 305px;
+    background-image: url("../img/gorjy.jpg");
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.picture-overlay3:hover .serche-link {
+    height: 70px;
+}
+
+.picture-overlay3:hover .icon-serche, .icon-link {
+    visibility: visible;
+    opacity: 1;
+}
+
+.picture-overlay3:hover {
+    opacity: 0.8;
+}
+
+.link:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+.serche:hover {
+    background-color: white;
+    transition: 0.3s;
+}
+
+.post-title {
+    display: flex;
+    justify-content: center;
+    font-size: 29px;
+    font-weight: bold;
+    color: #126bdc;
+    direction: rtl;
+    margin: 15px 5px;
+}
+
+.post-normal {
+    text-align: right;
+    font-size: 20px;
+    font-weight: bold;
+    color: #32445e;
+    margin: 20px 5px;
+}
+
+.girl-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 25px auto;
+    width: 1150px;
+    height: 550px;
+    direction: rtl;
+}
+
+.girl-left {
+    justify-content: left;
+    width: 650px;
+    height: 480px;
+    background-image: url("../img/new-project.png");
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.text-right {
+    justify-content: right;
+    width: 480px;
+    height: 500px;
+    margin-right: 10px;
+}
+
+.text-top {
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px auto;
+}
+
+.text-middle {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 90px;
+    margin: 20px auto;
+}
+
+.timer-child {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 86px;
+    background-color: #126bdc;
+    border-radius: 35px;
+    margin: 0 5px;
+}
+
+.timer-txt-top {
+    margin: 3px auto 0 auto;
+    font-size: 30px;
+    color: white;
+}
+
+.timer-txt-bottom {
+    margin: 0 auto 5px auto;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    width: 480px;
+    height: 60px;
+}
+
+.register-pic {
+    justify-content: center;
+    width: 180px;
+    height: 60px;
+    margin: 0 auto;
+    background-image: url("../img/button.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1253a7;
+    height: 320px;
+}
+
+.icon-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 110px;
+    height: 230px;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-right: 3px;
+    border-radius: 50%;
+    background-color: #CC4639;
+    cursor: pointer;
+}
+
+.icon-ins {
+    width: 40px;
+    height: 40px;
+}
+
+.telegram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+    border-radius: 50%;
+    background-color: #2ca5e0;
+    cursor: pointer;
+}
+
+.icon-tel {
+    width: 30px;
+    height: 30px;
+}
+
+.hr {
+    width: 100%;
+    border: 0.5px solid #949393;
+}
+
+.border-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: transparent;
+}
+
+.p-footer {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
