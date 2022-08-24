@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div style="position:relative;background-color: #2ca5e0;height: 900px;" class='container'>
+    <button style="position: absolute;width: 70px;height: 70px;font-size: x-large;background-color: black;color: white;
+    border: 0px;border-radius: 50%;" type='button' onmouseover="change(this)">Click
+    </button>
+</div>
+
+<script>
+
+    const c = document.querySelector(".container");
+    const b = document.querySelector("button");
+
+    function change() {
+        const
+            {width: cWidth, height: cHeight} = c.getBoundingClientRect(),
+            {width: bWidth, height: bHeight} = b.getBoundingClientRect(),
+            i = Math.floor(Math.random() * (cWidth - bWidth)) + 1,
+            j = Math.floor(Math.random() * (cHeight - bHeight)) + 1;
+
+        b.style.left = i + "px";
+        b.style.top = j + "px";
+    }
+
+    b.addEventListener("Click", change);
+</script>
+</body>
+</html>

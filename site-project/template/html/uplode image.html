@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="display: flex;justify-content: center;">
+<div id="output" style="background-size: cover;background-repeat: no-repeat;width: 300px;height: 300px;border:1px solid #32445e;border-radius: 50%;display: flex;
+     justify-content: center;align-items: center;">
+    <input style="width: 300px;height: 300px;border-radius: 50%;color: transparent;"
+           id="input" type="file"
+           onchange="loadFile(event)">
+</div>
+<script>
+    let input = document.getElementById('input');
+    input.addEventListener('change', function () {
+        let acceptedTypes = ['png', 'jpeg', 'jpg', 'gif'];
+        let type = input.value.split('.')[input.value.split('.').length - 1]
+        if (!acceptedTypes.includes(type)) {
+            alert('only images should be uploaded');
+            input.value = '';
+        } else {
+
+        }
+    });
+    let loadFile = function (event) {
+        let output = document.getElementById('output');
+        output.style.backgroundImage = "url(" + URL.createObjectURL(event.target.files[0]) + ")";
+    };
+
+    // function validateinput() {
+    //     let x = document.getElementById(output).value;
+    //     if (x !== x) {
+    //         alert("osssssssssssskol ask load kon")
+    //     }
+    // }
+</script>
+</body>
+</html>
